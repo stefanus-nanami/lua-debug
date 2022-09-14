@@ -7,8 +7,95 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C7E63AEB28D20C5200E42096 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7E63AEA28D20C5200E42096 /* main.cpp */; };
+		C7E63AF228D20CA100E42096 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7E63AF128D20CA100E42096 /* main.cpp */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C700B88D28D225000070CE55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E63AF328D20D4E00E42096 /* Libraries.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C700B86D28D221B80070CE55;
+			remoteInfo = asio;
+		};
+		C700B88F28D226310070CE55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E63AF328D20D4E00E42096 /* Libraries.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C700B86028D221B80070CE55;
+			remoteInfo = asio;
+		};
+		C7E63AFC28D20D4E00E42096 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E63AF328D20D4E00E42096 /* Libraries.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C7E639B328CCCDE300E42096;
+			remoteInfo = Lua;
+		};
+		C7E63AFE28D20D4E00E42096 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E63AF328D20D4E00E42096 /* Libraries.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C7E63A4028CCF86B00E42096;
+			remoteInfo = luac;
+		};
+		C7E63B0028D20D4E00E42096 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E63AF328D20D4E00E42096 /* Libraries.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C7E63A6428CCFF5800E42096;
+			remoteInfo = lua;
+		};
+		C7E63B0228D20D4E00E42096 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E63AF328D20D4E00E42096 /* Libraries.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C7E63AAE28D0E84900E42096;
+			remoteInfo = LuaBridge;
+		};
+		C7E63B0428D20D4E00E42096 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E63AF328D20D4E00E42096 /* Libraries.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C7E63AB828D0F3B700E42096;
+			remoteInfo = picojson;
+		};
+		C7E63B0628D20D4E00E42096 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E63AF328D20D4E00E42096 /* Libraries.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C7E63AC728D0F8E800E42096;
+			remoteInfo = LRDB;
+		};
+		C7E63B0828D20E1F00E42096 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E63AF328D20D4E00E42096 /* Libraries.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E63AC128D0F8E800E42096;
+			remoteInfo = LRDB;
+		};
+		C7E63B0A28D20E1F00E42096 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E63AF328D20D4E00E42096 /* Libraries.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E639B228CCCDE300E42096;
+			remoteInfo = Lua;
+		};
+		C7E63B0C28D20E1F00E42096 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E63AF328D20D4E00E42096 /* Libraries.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E63A6B28D0E84900E42096;
+			remoteInfo = LuaBridge;
+		};
+		C7E63B0E28D20E1F00E42096 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7E63AF328D20D4E00E42096 /* Libraries.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C7E63AB228D0F3B700E42096;
+			remoteInfo = picojson;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		C7E63AE528D20C5200E42096 /* CopyFiles */ = {
@@ -24,7 +111,8 @@
 
 /* Begin PBXFileReference section */
 		C7E63AE728D20C5200E42096 /* DebugLua */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DebugLua; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7E63AEA28D20C5200E42096 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C7E63AF128D20CA100E42096 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C7E63AF328D20D4E00E42096 /* Libraries.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Libraries.xcodeproj; path = Libraries/Libraries.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +129,7 @@
 		C7E63ADE28D20C5200E42096 = {
 			isa = PBXGroup;
 			children = (
+				C7E63AF328D20D4E00E42096 /* Libraries.xcodeproj */,
 				C7E63AE928D20C5200E42096 /* DebugLua */,
 				C7E63AE828D20C5200E42096 /* Products */,
 			);
@@ -57,9 +146,23 @@
 		C7E63AE928D20C5200E42096 /* DebugLua */ = {
 			isa = PBXGroup;
 			children = (
-				C7E63AEA28D20C5200E42096 /* main.cpp */,
+				C7E63AF128D20CA100E42096 /* main.cpp */,
 			);
 			path = DebugLua;
+			sourceTree = "<group>";
+		};
+		C7E63AF428D20D4E00E42096 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7E63AFD28D20D4E00E42096 /* libLua.a */,
+				C7E63AFF28D20D4E00E42096 /* luac */,
+				C7E63B0128D20D4E00E42096 /* lua */,
+				C7E63B0328D20D4E00E42096 /* libLuaBridge.a */,
+				C7E63B0528D20D4E00E42096 /* libpicojson.a */,
+				C7E63B0728D20D4E00E42096 /* libLRDB.a */,
+				C700B88E28D225000070CE55 /* libasio.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -76,6 +179,11 @@
 			buildRules = (
 			);
 			dependencies = (
+				C700B89028D226310070CE55 /* PBXTargetDependency */,
+				C7E63B0928D20E1F00E42096 /* PBXTargetDependency */,
+				C7E63B0B28D20E1F00E42096 /* PBXTargetDependency */,
+				C7E63B0D28D20E1F00E42096 /* PBXTargetDependency */,
+				C7E63B0F28D20E1F00E42096 /* PBXTargetDependency */,
 			);
 			name = DebugLua;
 			productName = DebugLua;
@@ -89,7 +197,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					C7E63AE628D20C5200E42096 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -107,6 +215,12 @@
 			mainGroup = C7E63ADE28D20C5200E42096;
 			productRefGroup = C7E63AE828D20C5200E42096 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C7E63AF428D20D4E00E42096 /* Products */;
+					ProjectRef = C7E63AF328D20D4E00E42096 /* Libraries.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C7E63AE628D20C5200E42096 /* DebugLua */,
@@ -114,16 +228,96 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		C700B88E28D225000070CE55 /* libasio.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libasio.a;
+			remoteRef = C700B88D28D225000070CE55 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C7E63AFD28D20D4E00E42096 /* libLua.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLua.a;
+			remoteRef = C7E63AFC28D20D4E00E42096 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C7E63AFF28D20D4E00E42096 /* luac */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = luac;
+			remoteRef = C7E63AFE28D20D4E00E42096 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C7E63B0128D20D4E00E42096 /* lua */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = lua;
+			remoteRef = C7E63B0028D20D4E00E42096 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C7E63B0328D20D4E00E42096 /* libLuaBridge.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLuaBridge.a;
+			remoteRef = C7E63B0228D20D4E00E42096 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C7E63B0528D20D4E00E42096 /* libpicojson.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libpicojson.a;
+			remoteRef = C7E63B0428D20D4E00E42096 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C7E63B0728D20D4E00E42096 /* libLRDB.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLRDB.a;
+			remoteRef = C7E63B0628D20D4E00E42096 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C7E63AE328D20C5200E42096 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7E63AEB28D20C5200E42096 /* main.cpp in Sources */,
+				C7E63AF228D20CA100E42096 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C700B89028D226310070CE55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = asio;
+			targetProxy = C700B88F28D226310070CE55 /* PBXContainerItemProxy */;
+		};
+		C7E63B0928D20E1F00E42096 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LRDB;
+			targetProxy = C7E63B0828D20E1F00E42096 /* PBXContainerItemProxy */;
+		};
+		C7E63B0B28D20E1F00E42096 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Lua;
+			targetProxy = C7E63B0A28D20E1F00E42096 /* PBXContainerItemProxy */;
+		};
+		C7E63B0D28D20E1F00E42096 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LuaBridge;
+			targetProxy = C7E63B0C28D20E1F00E42096 /* PBXContainerItemProxy */;
+		};
+		C7E63B0F28D20E1F00E42096 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = picojson;
+			targetProxy = C7E63B0E28D20E1F00E42096 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C7E63AEC28D20C5200E42096 /* Debug */ = {
@@ -176,10 +370,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Libraries/local/include",
+					"$(PROJECT_DIR)/Libraries/local/include/Lua",
+					"$(PROJECT_DIR)/Libraries/local/include/picojson",
+					"$(PROJECT_DIR)/Libraries/local/include/asio",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Libraries/local/lib/$(CONFIGURATION)";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lLua";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -228,9 +430,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Libraries/local/include",
+					"$(PROJECT_DIR)/Libraries/local/include/Lua",
+					"$(PROJECT_DIR)/Libraries/local/include/picojson",
+					"$(PROJECT_DIR)/Libraries/local/include/asio",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Libraries/local/lib/$(CONFIGURATION)";
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-lLua";
 				SDKROOT = macosx;
 			};
 			name = Release;
